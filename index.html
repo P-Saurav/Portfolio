@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurav Pal- Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/Saurav.jpg" type="image/x-icon">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+
+        <!--
+      - #SIDEBAR
+    -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="./assets/images/Saurav.jpg" alt="Richard hanrick" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Saurav Pal">Saurav Pal</h1>
+                    <p class="title">Full Stack Java Developer</p>
+                    <a href="mailto:pal.saurav028@gmail" class="contact-link mobile-only-email"
+                        style="color: white; font-size: 14px; text-indent: 8px; letter-spacing: 0.8px;">pal.saurav028@gmail.com</a>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:pal.saurav028@gmail" class="contact-link" style="font-weight: bold;letter-spacing: 0.5px; overflow:visible;">pal.saurav028@gmail.com</a>
+                        </div>
+
+                    </li>
+
+                    <!-- <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+91 876-346-9389" class="contact-link">+91 (245) 346-9389</a>
+                        </div>
+
+                    </li> -->
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="1982-06-23">March 09, 2003</time>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Bhubaneswar, Odisha</address>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/saurav-pal" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://github.com/P-Saurav" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item"></li>
+                        <a href="https://palsaurav.medium.com" class="social-link">
+                            <ion-icon name="logo-medium"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </aside>
+
+
+
+
+
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+
+            <!--
+        - #NAVBAR
+      -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>About</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-nav-link>Portfolio</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+
+
+
+            <!--
+        - #ABOUT
+      -->
+
+            <article class="about" data-page="about">
+
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                        Welcome to the portfolio of a highly skilled Full Stack Java Developer with a B.Tech in Computer Science and Engineering. Specializing in both back-end and front-end development, this developer has extensive experience with technologies like Java, Spring Boot, Hibernate, MySQL, Oracle SQL, and JavaScript. With a solid foundation in creating robust, scalable, and maintainable systems, they are proficient in implementing complex business logic, database design, and developing intuitive, user-friendly interfaces. Their ability to integrate client and server-side components seamlessly ensures the delivery of high-performance applications suited to diverse business needs.
+                    </p>
+
+                    <p>
+                        Driven by a passion for continuous improvement and innovation, this developer stays current with the latest industry trends and advancements in technology. They excel in collaborative, fast-paced environments, ensuring that code is optimized, tested, and delivered with precision. With strong problem-solving skills and a commitment to delivering high-quality projects on time, they consistently tackle technical challenges with ease. Their adaptability and dedication make them a valuable asset, contributing to both the success of development teams and organizational growth.
+                    </p>
+                </section>
+
+
+                <!--
+          - service
+        -->
+
+                <section class="service">
+
+                    <h3 class="h3 service-title">What i'm doing</h3>
+
+                    <ul class="service-list">
+
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Front-end development</h4>
+
+                                <p class="service-item-text">
+                                    High-quality development of user interfaces at the professional level.
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-dev.svg" alt="Front-End Projects icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Back-end development</h4>
+
+                                <p class="service-item-text">
+                                    Development of robust and scalable back-end systems
+                                </p>
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+
+                <!--
+          - testimonials
+        -->
+
+                <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Priyanka Priyadarshni Behera" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Priyanka Priyadarshni Behera</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Priyanka was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Dk" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dk</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Priyanka was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Kuku" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Kuku</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Priyanka was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Sam" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sam</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Priyanka was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+                <!--
+          - testimonials modal
+        -->
+<!---->
+                <div class="modal-container" data-modal-container>
+
+                    <div class="overlay" data-overlay></div>
+
+                    <section class="testimonials-modal">
+
+                        <button class="modal-close-btn" data-modal-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="./assets/images/avatar-1.png" alt="Priyanka Priyadarshani Behera" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="./assets/images/icon-quote.svg" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+                            <!--
+
+                            <h4 class="h3 modal-title" data-modal-title>Priyanka Priyadarshani Behera</h4>
+
+                            <time datetime="2021-06-14">14 June, 2021</time>
+
+                            <div data-modal-text>
+                                <p>
+                                    Priyanka was hired to create a corporate identity. We were very pleased with the work
+                                    done. She has a
+                                    lot of experience
+                                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet,
+                                    ullamcous cididt
+                                    consectetur adipiscing
+                                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                                </p>
+                            </div>
+                            -->
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+
+                <!--
+          - clients
+        -->
+
+                <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+            </article>
+
+
+
+
+
+            <!--
+        - #RESUME
+      -->
+
+            <article class="resume" data-page="resume">
+
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+                <!--
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Freelancer</h4>
+
+                            <span>July 2024 — Present</span>
+
+                            <p class="timeline-text">
+                                Currently working as a freelancer, providing specialized development services to
+                                clients.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">ByteIQ Analytics Pvt Ltd, Bhubaneswar</h4>
+
+                            <span>July 2023 — July 2024</span>
+
+                            <p class="timeline-text">
+                                I have worked as a Product Engineer, where I played a key role in developing the
+                                front-end and back-end, enhancing the overall quality of products.
+                            </p>
+
+                        </li>
+
+                    </ol>
+
+                </section>
+
+                -->
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Gandhi Institute Of Excellent Technocrats(GIET),
+                                Bhubaneswar, Odisha</h4>
+
+                            <span>2020 — 2024</span>
+
+                            <p class="timeline-text">
+                                I hold a Bachelor's degree in Technology, specializing in Computer Science and Engineering. My education equipped me with a strong foundation in software development, algorithms, and data structures. Through various hands-on projects, I gained practical experience in programming languages and frameworks, enhancing my skills in software design and system architecture. I am proficient in collaborating with cross-functional teams to deliver high-quality solutions, demonstrating my commitment to continuous learning and professional growth in the field of software engineering.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">SM Higher Secondary School, Bhadrak, Odisha</h4>
+
+                            <span>2018 — 2020</span>
+
+                            <p class="timeline-text">
+                                I completed my intermediate studies, where I developed strong analytical and critical thinking skills. My curriculum emphasized scientific principles, allowing me to explore various disciplines. I chose to focus on science, which included a foundational understanding of biological concepts and their applications in the real world.
+                             </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Oupada Nodal High School, Balasore, Odisha</h4>
+
+                            <span>2008 — 2018</span>
+
+                            <p class="timeline-text">
+                                I completed my schooling with a strong foundation in Mathematics, Science, and Computer Studies. My academic achievements and involvement in extracurricular activities fueled my passion for technology and problem-solving, laying the groundwork for my future studies in Computer Science. </p>
+
+                        </li>
+
+                    </ol>
+
+                </section><br>
+
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Certification</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+                            <a href="https://www.freecodecamp.org/certification/Sauravpal/javascript-algorithms-and-data-structures" class="social-link">
+
+                            <h5 class="h4">Javascript Algorithms And Data Structure </h5>
+                            </a>
+                        
+                            <p class="timeline-text">
+                                Gained expertise in JavaScript with a focus on essential algorithms and data structures, including arrays, linked lists, trees, and sorting techniques. Developed strong problem-solving abilities, optimized code for performance, and improved algorithmic thinking for efficient software development.
+                            </p>
+
+                        </li> 
+
+
+                        <li class="timeline-item">
+                            <a href="https://www.freecodecamp.org/certification/Sauravpal/responsive-web-design" class="social-link">
+
+                            <h5 class="h4">Responsive Web Design</h5>
+                            </a>
+                        
+                            <p class="timeline-text">
+                                Acquired comprehensive skills in building responsive websites using HTML, CSS, and Flexbox. Focused on designing user-friendly interfaces that adapt seamlessly to various screen sizes and devices. Emphasized best practices in web accessibility, layout design, and mobile-first development to create scalable and modern web applications.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+                            <a href="https://verify.skilljar.com/c/oybc6xkzswqw" class="social-link">
+                            <h5 class="h4">LinkedIn Marketing Fundamentals</h5>
+                            </a>
+
+                            <p class="timeline-text">
+                                Learned key strategies for building brand presence, creating targeted ads, and optimizing content on LinkedIn. Gained skills in campaign performance analysis and leveraging LinkedIn tools to drive business growth.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+                            <a href="https://www.mygreatlearning.com/certificate/JQGJKNVN" class="social-link">
+                            <h5 class="h4">Cyber Security Threats</h5>
+                            </a>
+
+                            <p class="timeline-text">
+                                Focused on identifying and mitigating key cyber threats such as malware, phishing, and network vulnerabilities. Developed skills in threat detection, risk assessment, and implementing effective security measures to protect systems and data.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+                            <a href="https://itronixsolutions.com/courses/certificate/73192d2bc5" class="social-link">
+                            <h5 class="h4">Agile Scrum Foundation Certification</h5>
+                            </a>
+
+                            <p class="timeline-text">
+                                Mastered Agile principles and the Scrum framework, focusing on iterative development, team collaboration, and efficient project delivery. Developed the skills to drive productivity and adaptability in fast-paced software engineering environments.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+                            <a href="https://itronixsolutions.com/courses/certificate/3372501bc8" class="social-link">
+                            <h5 class="h4">Agile Scrum foundation Professional Certificate</h5>
+                            </a>
+
+                            <p class="timeline-text">
+                                Achieved advanced proficiency in Agile methodologies and the Scrum framework, emphasizing strategic implementation, team leadership, and effective project management. Enhanced skills in driving high-performance teams, optimizing workflows, and delivering complex software projects in dynamic environments.
+                            </p>
+                         </li>   
+
+                        <li class="timeline-item">
+                            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_5m9GjvPRwXkXij3x3_1720454017578_completion_certificate.pdf" class="social-link">
+                            <h5 class="h4">Goldman Sachs - Software Engineering Job Simulation</h5>
+                            </a>
+
+                            <p class="timeline-text">
+                                Completed a rigorous job simulation that mirrored real-world software engineering challenges at Goldman Sachs. This experience honed my coding skills and reinforced collaborative problem-solving techniques, providing valuable insights into industry practices and workflows.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+                            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20UK/3xnZEj9kfpoQKW885_Accenture%20UK_5m9GjvPRwXkXij3x3_1720457204870_completion_certificate.pdf" class="social-link">
+                            <h5 class="h4">Accenture UK - Developer and Technology Job Simulation</h5>
+                            </a>
+
+                            <p class="timeline-text">
+                                Engaged in a realistic simulation of software development at Accenture, focusing on agile methodologies and collaborative problem-solving. Enhanced technical skills and gained insights into industry practices, preparing for a successful career in technology.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+                            <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Walmart%20USA/oX6f9BbCL9kJDJzfg_Walmart%20USA_5m9GjvPRwXkXij3x3_1726204250277_completion_certificate.pdf" class="social-link">
+                            <h5 class="h4">Walmart USA - Advanced Software Engineering Job Simulation</h5>
+                            </a>
+
+                            <p class="timeline-text">
+                                Completed a job simulation focused on software design, coding, and debugging in a real-world environment. Enhanced problem-solving skills and gained practical experience with industry-standard tools, preparing for challenges in software engineering.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+                            <a href="./assets/Certification/AI Matters- The Open University.pdf" class="social-link">
+                            <h5 class="h4">AI Matters- The Open University</h5>
+                            </a>
+
+                            <p class="timeline-text">
+                                Completed at The Open University, this certification offers a rigorous exploration of artificial intelligence principles, including machine learning and natural language processing. It emphasizes practical applications and ethical considerations in AI development, providing a robust foundation for implementing AI solutions in software engineering projects.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+                            <a href="./assets/Certification/Course_Certificate - Google Analytics.pdf" class="social-link">
+                            <h5 class="h4">Google Analytics</h5>
+                            </a>
+
+                            <p class="timeline-text">
+                                Developed expertise in using Google Analytics for data-driven decision-making. Proficient in setting up tracking codes, analyzing user behavior, and optimizing website performance to enhance user experience and drive business growth.
+                            </p>
+
+                        </li>
+
+                    </ol>
+
+
+                </section>
+
+                
+                
+                <section class="skill">
+
+                    <h3 class="h3 skills-title">My skills</h3>
+
+                    <div class="skill-split">
+                        <ul class="skills-list content-card">
+
+
+                           
+                            <li class="skills-item">
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Express js</h5>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 85%;"></div>
+                                </div>
+
+                            </li>
+
+                            <li class="skills-item">
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Node.js</h5>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                                </div>
+
+                            </li>
+
+                            <li class="skills-item">
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Spring Boot</h5>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 90%;"></div>
+                                </div>
+
+                            </li>
+
+                            <li class="skills-item"></li>
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Hibernate</h5>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 70%;"></div>
+                                </div>
+
+                            </li>
+
+                            <li class="skills-item"></li>
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Oracle SQL</h5>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 90%;"></div>
+                                </div>
+
+                            </li>
+
+                            <li class="skills-item"></li>
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">MySQL</h5>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                                </div>
+
+                            </li>
+
+                            <li class="skills-item"></li>
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Apache Kafka</h5>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 70%;"></div>
+                                </div>
+
+                            </li>
+
+
+                        </ul>
+
+
+                        <ul class="skills-list content-card">
+
+
+                            <li class="skills-item">
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">JavaScript</h5>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                                </div>
+
+                            </li>
+
+
+                            <li class="skills-item">
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Java</h5>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 90%;"></div>
+                                </div>
+
+                            </li>
+
+                            <li class="skills-item">
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Linux OS</h5>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 60%;"></div>
+                                </div>
+
+                            </li>
+
+                            <li class="skills-item">
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Git</h5>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 70%;"></div>
+                                </div>
+
+                            </li>
+
+                            <li class="skills-item">
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Github</h5>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                                </div>
+
+                            </li>
+
+                            <li class="skills-item"></li>
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Agile Development</h5>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div class="skill-progress-fill" style="width: 90%;"></div>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </section>
+
+                <section>
+                    <br><br>
+                    <div class="resume-download">
+                        <p>Click on the below link to download my resume in PDF format :-</p>
+                        <a href="./assets/Resume/Saurav_Pal_Resume.pdf" class="download-link" download>Download Resume</a>
+                    </div>
+                </section>
+
+            </article>
+
+
+
+
+
+            <!--
+        - #PORTFOLIO
+      -->
+
+            <article class="portfolio active" data-page="portfolio">
+
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+
+                    <ul class="filter-list">
+
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>All Projects</button>
+                        </li>
+
+                    </ul>
+
+                    <div class="filter-select-box">
+
+                        <button class="filter-select" data-select>
+
+                            <div class="select-value" data-selecct-value>Select category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+
+                        </button>
+
+                        <ul class="select-list">
+
+                            <li class="select-item">
+                                <button data-select-item>Projects</button>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <ul class="project-list">
+
+                        <li class="project-item  active" data-filter-item data-category="full stack projects">
+
+                                <a href="https://p-saurav.github.io/TechLearn/" class="social-link">
+                                    <h3 class="project-title">TechLearn - A Comprehensive Ed-Tech Platform</h3>
+                                </a>
+
+                           
+                            <p class="about-text">- TechLearn is a fully responsive, scalable educational technology platform built using <span class="skills">HTML, CSS</span> with <span class="skills">Javascript</span> ,
+                                ensuring a seamless user experience. Designed to deliver a seamless and efficient user experience, the platform hosts a comprehensive library of educational resources, including a vast collection of books across various subjects. Additionally, TechLearn integrates an advanced examination module that supports multiple test formats, providing users with a robust system for knowledge assessment and exam preparation.<br>
+
+                                - The platform leverages front-end technologies to create an intuitive and user-friendly interface, ensuring easy navigation through its diverse content offerings. With a focus on performance and scalability, TechLearn efficiently manages large datasets, including the extensive book repository and exam database, while maintaining fast load times and a smooth user experience. This project demonstrates strong proficiency in front-end development, user-centric design, and the application of best practices for creating dynamic, content-driven platforms.
+                            </p>
+
+
+                            <p class="project-category" style="visibility: hidden;">Full Stack Projects</p>
+
+                        </li>
+
+                    
+                        <li class="project-item  active" data-filter-item data-category="full stack projects">
+
+                            <h3 class="project-title">Medical Store Management System</h3>
+
+                            <p class="about-text">- Medical Store Management System is an innovative <span class="skills">web application</span> developed to optimize the management of medical billing and inventory operations for pharmacies. The system provides a comprehensive solution for generating invoices, tracking sales, managing inventory, and processing customer orders, all designed to enhance operational efficiency and accuracy.<br>
+                            
+                            - Utilizing core technologies such as <span class="skills">HTML, CSS, JavaScript</span> and <span class="skills">MySQL</span>, this project ensures a robust user experience and reliable data handling. Key features include real-time inventory tracking, detailed reporting capabilities, and streamlined customer management processes. The Medical Store Management System exemplifies a commitment to delivering high-quality software solutions that meet the practical needs of medical establishments, showcasing strong expertise in full-stack development and a deep understanding of user-centered design principles.
+                            </p>
+
+                            <p class="project-category" style="visibility: hidden;">Full Stack Projects</p>
+
+                        </li>
+
+                        
+                        <!--
+
+                        <li class="project-item  active" data-filter-item data-category="back-end projects">
+
+                            <h3 class="project-title">Web Scraper using Playwright</h3>
+
+                            <p class="about-text">Developed a robust web scraper using Python's <span class="skills">asyncio</span> library for
+                                concurrent execution, leveraging the power of async <span class="skills">Playwright</span> for
+                                efficient and scalable scraping of jewellery data from multiple jewellery
+                                websites. Used <span class="skills">FastAPI</span> for creating endpoints. Implemented error handling mechanisms to manage edge
+                                cases and ensure smooth operation under varying website conditions.
+                                The scraper retrieves and organizes jewellery data, including product
+                                details, pricing information, and images, providing a comprehensive and
+                                up-to-date dataset for analysis and decision-making purposes.
+                            </p>
+
+                            <span class="project-link">Project : <a href="https://github.com/P-Saurav">Github</a></span>
+
+                            <p class="project-category" style="visibility: hidden;">Back-End Projects</p>
+
+                        </li>
+                        
+                        
+                        <li class="project-item  active" data-filter-item data-category="front-end projects">
+
+
+                            <h3 class="project-title">ByteIQ Analytics Offical Website</h3>
+
+                            <p class="about-text">Collaborated as one of three members in developing the company's
+                                official website, utilizing <span class="skills">Angular</span> and <span
+                                    class="skills">Bootstrap</span> for a modern, responsive
+                                design. Ensured a seamless user experience across both desktop and
+                                mobile platforms. Implemented interactive features and dynamic content
+                                to engage users effectively. Worked on optimizing the site's performance
+                                and ensuring cross-browser compatibility. Focused on creating a
+                                professional and appealing online presence that accurately reflects the
+                                company's brand and values.
+                            </p>
+
+                            <span class="project-link">Website: <a href="https://www.byteiqanalytics.com/">ByteIQ
+                                    Analytics</a></span>
+
+                            <p class="project-category" style="visibility: hidden;">Front-End Projects</p>
+
+                        </li>
+
+
+                        <li class="project-item  active" data-filter-item data-category="front-end projects">
+
+
+                            <h3 class="project-title">Credit Card product</h3>
+
+                            <p class="about-text">At my previous company, I contributed to a credit card-related product
+                                by developing two key user interface pages using <span class="skills">React</span>, <span class="skills">TypeScript</span> and <span class="skills">Boostrap</span>. My work involved
+                                designing and implementing interactive and responsive components to enhance user
+                                experience and functionality. I collaborated closely with the design and backend teams
+                                to ensure seamless integration and adherence to project requirements. This experience
+                                allowed me to apply best practices in front-end development, improve my skills in React
+                                and TypeScript, and contribute to the overall success of the product by delivering
+                                high-quality, maintainable code within tight deadlines.
+                            </p>
+
+                            <p class="project-category" style="visibility: hidden;">Front-End Projects</p>
+
+                        </li>
+
+                    -->
+
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+
+
+
+            <!--
+        - #CONTACT
+      -->
+
+            <article class="contact" data-page="contact">
+
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29936.813303014645!2d85.80394043476561!3d20.296058700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909d2d5170aa5%3A0xfc580e2b68b33fa8!2sBhubaneswar%2C%20Odisha!5e0!3m2!1sen!2sin!4v1727801494959!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+
+                    <a href="mailto:pal.saurav028@gmail.com" style="color: rgb(255, 255, 101);">Click Here to Email Me</a>
+
+                    <br>
+                    <p style="color: white;"> Have a great day &#128522;</p>
+
+                </section>
+
+            </article>
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
